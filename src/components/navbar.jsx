@@ -16,6 +16,7 @@ class Navbar extends Component {
     badgevalue += this.getTotal() === 0 ? "danger" : "success";
     return badgevalue;
   }
+  
 
   render() {
     return (
